@@ -88,6 +88,11 @@
             "Resource": [
                 "arn:aws:apigateway:*::*"
             ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::654654347662:role/*"
         }
     ]
 }
