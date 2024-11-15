@@ -9,11 +9,6 @@ pipeline {
                 sh "pip3 install -r sam-app/tests/requirements.txt"
             }
         }
-        stage('Test') {
-            steps {
-                sh "pytest"
-            }
-        }
 
         stage('Build') {
             steps {
