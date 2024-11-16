@@ -20,7 +20,6 @@ Resources:
       CodeUri: hello_world/
       Handler: app.lambda_handler
       Runtime: python3.10
-      Role: arn:aws:iam::730335427659:role/*
       Architectures:
       - x86_64
       Events:
